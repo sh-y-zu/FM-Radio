@@ -8,50 +8,224 @@
 
 const musicData = [
   {
-    backgroundImage: "./assets/images/poster-1.jpg",
-    posterUrl: "./assets/images/poster-1.jpg",
-    title: "Happy Moments (Master)",
-    album: "No Spirit",
-    year: 2022,
-    artist: "No Spirit x Tonion",
-    musicPath: "./assets/music/music-1.mp3",
+    backgroundImage: "./assets/channel-logos/sirasa_fm.png",
+    posterUrl: "./assets/channel-logos/sirasa_fm.png",
+    title: "Sirasa FM",
+    signal: "FM 106.5 / 106.7",
+    country: "LK",
+    artist: "Descriptionn",
+    musicPath: "https://mbc.thestreamtech.com:8087/index.html"
   },
   {
-    backgroundImage: "./assets/images/poster-2.jpg",
-    posterUrl: "./assets/images/poster-2.jpg",
-    title: "We Are Going To Be Ok (Master)",
-    album: "No Spirit",
-    year: 2022,
-    artist: "No Spirit x Jhove",
-    musicPath: "./assets/music/music-2.mp3",
+    backgroundImage: "./assets/channel-logos/ran_fm.png",
+    posterUrl: "./assets/channel-logos/ran_fm.png",
+    title: "Ran FM",
+    signal: "FM 100.5 / 88.1",
+    country: "LK",
+    musicPath: "http://207.148.74.192:7860/ran.mp3"
   },
   {
-    backgroundImage: "./assets/images/poster-3.jpg",
-    posterUrl: "./assets/images/poster-3.jpg",
-    title: "Winter Meadow",
-    album: "No Spirit",
-    year: 2022,
-    artist: "No Spirit x  juniorodeo",
-    musicPath: "./assets/music/music-3.mp3",
+    backgroundImage: "./assets/channel-logos/y_fm.png",
+    posterUrl: "./assets/channel-logos/y_fm.png",
+    title: "Y FM",
+    signal: "FM 92.7",
+    country: "LK",
+    musicPath: "https://mbc.thestreamtech.com:7032/index.html"
   },
   {
-    backgroundImage: "./assets/images/poster-4.jpg",
-    posterUrl: "./assets/images/poster-4.jpg",
-    title: "From Where We Started",
-    album: "No Spirit",
-    year: 2022,
-    artist: "No Spirit",
-    musicPath: "./assets/music/music-4.mp3",
+    backgroundImage: "./assets/channel-logos/siyatha_fm.png",
+    posterUrl: "./assets/channel-logos/siyatha_fm.png",
+    title: "Siyatha FM",
+    signal: "FM 98.4 / 98.2",
+    country: "LK",
+    musicPath: "https://srv01.onlineradio.voaplus.com/siyathafm"
   },
   {
-    backgroundImage: "./assets/images/poster-5.jpg",
-    posterUrl: "./assets/images/poster-5.jpg",
-    title: "Where I Found You",
-    album: "No Spirit",
-    year: 2022,
-    artist: "No Spirit",
-    musicPath: "./assets/music/music-5.mp3",
+    backgroundImage: "./assets/channel-logos/hiru_fm.png",
+    posterUrl: "./assets/channel-logos/hiru_fm.png",
+    title: "Hiru FM",
+    signal: "FM 96.3",
+    country: "LK",
+    musicPath: "https://radio.lotustechnologieslk.net:2020/stream/hirufmgarden"
   },
+  {
+    backgroundImage: "./assets/channel-logos/shaa_fm.png",
+    posterUrl: "./assets/channel-logos/shaa_fm.png",
+    title: "Shaa FM",
+    signal: "FM 90.9 / 91.1",
+    country: "LK",
+    musicPath: "https://radio.lotustechnologieslk.net:2020/stream/shaafmgarden"
+  },
+  {
+    backgroundImage: "./assets/channel-logos/neth_fm.png",
+    posterUrl: "./assets/channel-logos/neth_fm.png",
+    title: "Neth FM",
+    signal: "FM 94.8",
+    country: "LK",
+    musicPath: "https://cp11.serverse.com/proxy/nethfm/stream"
+  },
+  {
+    backgroundImage: "./assets/channel-logos/itn_fm.png",
+    posterUrl: "./assets/channel-logos/itn_fm.png",
+    title: "ITN FM",
+    signal: "FM 93.5",
+    country: "LK",
+    musicPath: "https://cp12.serverse.com/proxy/itnfm/stream"
+  },
+  {
+    backgroundImage: "./assets/channel-logos/lakhanda_radio.png",
+    posterUrl: "./assets/channel-logos/lakhanda_radio.png",
+    title: "Lakhanda Radio",
+    signal: "FM 93.5 / 93.7",
+    country: "LK",
+    musicPath: "https://cp12.serverse.com/proxy/itnfm?mp=/stream"
+  },
+  {
+    backgroundImage: "./assets/channel-logos/the_buddhist_radio.png",
+    posterUrl: "./assets/channel-logos/the_buddhist_radio.png",
+    title: "The Buddhist Radio",
+    signal: "Unknown",
+    country: "LK",
+    musicPath: "http://uk7freenew.listen2myradio.com:22086/listen.pls"
+  },
+  {
+    backgroundImage: "./assets/channel-logos/rhythm_fm.png",
+    posterUrl: "./assets/channel-logos/rhythm_fm.png",
+    title: "Rhythm FM",
+    signal: "FM 95.6",
+    country: "LK",
+    musicPath: "https://srv01.onlineradio.voaplus.com/rhythmfm"
+  },
+  {
+    backgroundImage: "./assets/channel-logos/kiss_fm.png",
+    posterUrl: "./assets/channel-logos/kiss_fm.png",
+    title: "Kiss FM",
+    signal: "FM 95.6",
+    country: "LK",
+    musicPath: "https://srv01.onlineradio.voaplus.com/kissfm"
+  },
+  {
+    backgroundImage: "./assets/channel-logos/sooriyan_fm.png",
+    posterUrl: "./assets/channel-logos/sooriyan_fm.png",
+    title: "Sooriyan FM",
+    signal: "FM 103.6 / 103.4",
+    country: "LK",
+    musicPath: "https://radio.lotustechnologieslk.net:2020/stream/sooriyanfmgarden/"
+  },
+  {
+    backgroundImage: "./assets/channel-logos/yes_fm.png",
+    posterUrl: "./assets/channel-logos/yes_fm.png",
+    title: "Yes FM",
+    signal: "FM 100.8 / 101",
+    country: "LK",
+    musicPath: "https://mbc.thestreamtech.com:7056/index.html/stream"
+  },
+  {
+    backgroundImage: "./assets/channel-logos/kothmale_fm.png",
+    posterUrl: "./assets/channel-logos/kothmale_fm.png",
+    title: "Kothmale FM",
+    signal: "Unknown",
+    country: "LK",
+    musicPath: "https://s46.myradiostream.com:11156/listen.mp3"
+  },
+  {
+    backgroundImage: "./assets/channel-logos/colour_radio.png",
+    posterUrl: "./assets/channel-logos/colour_radio.png",
+    title: "Colour Radio",
+    signal: "Unknown",
+    country: "LK",
+    musicPath: "https://stream.zeno.fm/uo3gmts0ilivv"
+  },
+  {
+    backgroundImage: "./assets/channel-logos/parani_gee_radio.png",
+    posterUrl: "./assets/channel-logos/parani_gee_radio.png",
+    title: "Parani Gee Radio",
+    signal: "Unknown",
+    country: "LK",
+    musicPath: "https://stream.zeno.fm/18wvhnvmd18uv"
+  },
+  {
+    backgroundImage: "./assets/channel-logos/edm_fm_sri_lanka.png",
+    posterUrl: "./assets/channel-logos/edm_fm_sri_lanka.png",
+    title: "EDM FM Sri Lanka",
+    signal: "Unknown",
+    country: "LK",
+    musicPath: "https://stream.zeno.fm/ucqkp3kcmzzuv"
+  },
+  {
+    backgroundImage: "./assets/channel-logos/free_fm.png",
+    posterUrl: "./assets/channel-logos/free_fm.png",
+    title: "Free FM",
+    signal: "Unknown",
+    country: "LK",
+    musicPath: "https://stream.zeno.fm/1tcs4fbw7rquv"
+  },
+  {
+    backgroundImage: "./assets/channel-logos/rangiri_sri_lanka_radio.png",
+    posterUrl: "./assets/channel-logos/rangiri_sri_lanka_radio.png",
+    title: "Rangiri Sri Lanka Radio",
+    signal: "FM 104.4 / 105.7",
+    country: "LK",
+    musicPath: "https://stream.zeno.fm/wgp8fr3f4p8uv"
+  },
+  {
+    backgroundImage: "./assets/channel-logos/tharu_fm.png",
+    posterUrl: "./assets/channel-logos/tharu_fm.png",
+    title: "Tharu FM",
+    signal: "Unknown",
+    country: "LK",
+    musicPath: "https://ec3.yesstreaming.net:2655/stream"
+  },
+  {
+    backgroundImage: "./assets/channel-logos/shree_fm.png",
+    posterUrl: "./assets/channel-logos/shree_fm.png",
+    title: "Shree FM",
+    signal: "Unknown",
+    country: "LK",
+    musicPath: "http://207.148.74.192:7860/stream2.mp3"
+  },
+  {
+    backgroundImage: "./assets/channel-logos/derana_fm.png",
+    posterUrl: "./assets/channel-logos/derana_fm.png",
+    title: "Derana FM",
+    signal: "FM 92.2 / 92.4",
+    country: "LK",
+    musicPath: "https://player.twitch.tv/js/embed/v1.js"
+  },
+  {
+    backgroundImage: "./assets/channel-logos/shakthi_fm.png",
+    posterUrl: "./assets/channel-logos/shakthi_fm.png",
+    title: "Shakthi FM",
+    signal: "FM 103.9 / 104.1",
+    country: "LK",
+    musicPath: "http://live.trusl.com:1160/;"
+  },
+  {
+    backgroundImage: "./assets/channel-logos/real_radio.png",
+    posterUrl: "./assets/channel-logos/real_radio.png",
+    title: "Real Radio",
+    signal: "Unknown",
+    country: "LK",
+    musicPath: "https://srv01.onlineradio.voaplus.com/realfm"
+  },
+  {
+    backgroundImage: "./assets/channel-logos/seth_fm.png",
+    posterUrl: "./assets/channel-logos/seth_fm.png",
+    title: "Seth FM",
+    signal: "Unknown",
+    country: "LK",
+    musicPath: "https://listen.radioking.com/radio/384487/stream/435781"
+  },
+  {
+    backgroundImage: "./assets/channel-logos/v_fm.png",
+    posterUrl: "./assets/channel-logos/v_fm.png",
+    title: "V FM",
+    signal: "Unknown",
+    country: "LK",
+    musicPath: "https://dc1.serverse.com/proxy/fmlanka/stream"
+  }
+  
+  
 ];
 
 
@@ -147,8 +321,8 @@ addEventOnElements(playlistItems, "click", function () {
 
 const playerBanner = document.querySelector("[data-player-banner]");
 const playerTitle = document.querySelector("[data-title]");
-const playerAlbum = document.querySelector("[data-album]");
-const playerYear = document.querySelector("[data-year]");
+const playerAlbum = document.querySelector("[data-signal]");
+const playerYear = document.querySelector("[data-country]");
 const playerArtist = document.querySelector("[data-artist]");
 
 const audioSource = new Audio(musicData[currentMusic].musicPath);
@@ -158,8 +332,8 @@ const changePlayerInfo = function () {
   playerBanner.setAttribute("alt", `${musicData[currentMusic].title} Album Poster`);
   document.body.style.backgroundImage = `url(${musicData[currentMusic].backgroundImage})`;
   playerTitle.textContent = musicData[currentMusic].title;
-  playerAlbum.textContent = musicData[currentMusic].album;
-  playerYear.textContent = musicData[currentMusic].year;
+  playerAlbum.textContent = musicData[currentMusic].signal;
+  playerYear.textContent = musicData[currentMusic].country;
   playerArtist.textContent = musicData[currentMusic].artist;
 
   audioSource.src = musicData[currentMusic].musicPath;
